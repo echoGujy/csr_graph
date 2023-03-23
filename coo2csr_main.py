@@ -7,6 +7,7 @@ dataset = PygNodePropPredDataset(name = 'ogbn-papers100M',root=papers_path) ## p
 # graph = dataset[0]
 # graph_coo = graph.edge_index
 # print(graph_coo.shape)
+# test github dev
 
 graph = dataset[0]
 print(graph) ## to see the pyg papers-100m data' format
